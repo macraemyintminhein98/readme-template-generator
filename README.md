@@ -1,12 +1,13 @@
-# README Template Generator
+# README.md Template Generator
 
-A user-friendly web application for generating professional and visually appealing GitHub README files. 
+Generate professional GitHub READMEs instantly using our pre-designed templates and a simple form. Perfect for developers, students, and open-source contributors.
 
-**Features:**
-- Intuitive input forms for project details.
-- Multiple pre-designed themes.
-- Customization options.
-- Copy-to-clipboard functionality.
-- Direct download of `.md` file.
+## Features:
+- Multiple high-quality README templates.
+- Easy form-based input for project details.
+- Generates clean Markdown output.
 
-Craft your perfect README in minutes!
+## Get Started:
+Visit our landing page to generate your first README!
+
+*(Note: This is a placeholder. The full application with backend logic and payment integration is under development.)*
