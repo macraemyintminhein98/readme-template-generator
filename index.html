@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>README Template Generator</title>
+    <meta name="description" content="Generate professional GitHub READMEs instantly.">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: sans-serif; margin: 2em; line-height: 1.6; }
-        h1 { color: #333; }
-        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
-        p { margin-bottom: 1em; }
-        .button { background-color: #007bff; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 1em; }
-        .button:hover { background-color: #0056b3; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>README Template Generator</h1>
-        <p>Craft professional and visually appealing GitHub READMEs effortlessly.</p>
-        <p>Our tool helps you generate stunning README files with ease, offering various themes and customization options.</p>
-        <p>Perfect for developers, open-source contributors, and students.</p>
-        <a href="#" class="button">Get Started Now ($9.99)</a>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-lg w-full text-center">
+        <h1 class="text-4xl font-bold mb-4 text-gray-800">🌟 README.md Generator</h1>
+        <p class="text-lg text-gray-600 mb-6">Craft stellar GitHub READMEs in seconds with our templates.</p>
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <label for="project_name" class="block text-left text-sm font-medium text-gray-700">Project Name</label>
+                <input type="text" id="project_name" name="project_name" placeholder="My Awesome Project" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <div>
+                <label for="template" class="block text-left text-sm font-medium text-gray-700">Choose Template</label>
+                <select id="template" name="template" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500">
+                    <option value="showcase">Project Showcase</option>
+                    <option value="library">Library/Framework</option>
+                    <option value="portfolio">Personal Portfolio</option>
+                </select>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition duration-300">
+                Generate README (Coming Soon)
+            </button>
+        </form>
+        <p class="mt-8 text-sm text-gray-500">Designed for developers, by developers. Built with ❤️</p>
     </div>
 </body>
 </html>
